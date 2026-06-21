@@ -1,0 +1,187 @@
+
+/* body  */
+* {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: 'popins';
+}
+
+body {
+    background-color: rgb(14, 14, 14) !important;
+}
+
+/* navbar */
+.navbar {
+    /* border-bottom: 0.5px solid rgb(101, 101, 101); */
+    box-shadow: 0px 0px 5px rgb(80, 80, 80);
+
+}
+
+.navbar-brand {
+    font-size: 1.9rem !important;
+}
+
+.nav-logo {
+    color: rgb(142, 15, 15);
+}
+
+
+.navbar {
+    height: 4rem !important;
+    background-color: rgb(0, 0, 0) !important;
+    color: aliceblue !important;
+}
+
+.navbar-nav {
+    margin-right: 2rem !important;
+}
+
+.nav-link {
+    color: aliceblue !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    margin: 1rem !important;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid red !important;
+    transition: border ease-out !important;
+}
+
+.navbar-toggler-icon {
+    color: aliceblue !important;
+}
+
+.navbar-toggler {
+    color: rgb(77, 77, 77) !important;
+}
+
+.hero-section {
+    margin-top: 5rem;
+    height: 70vh;
+    /* box-shadow: 2px 0px 1px rgb(80, 80, 80); */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+}
+
+.hero-section:hover {
+
+    box-shadow: 2px 0px 18px rgb(80, 80, 80);
+}
+
+.left-container {
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-container h3 {
+    font-size: 2rem !important;
+
+}
+.btns {
+    margin-top: rem;
+    height: 5rem;
+    width: 18rem;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn {
+    width: 7rem !important;
+}
+
+.card-img-top {
+    background-size: cover;
+    height: 25rem;
+
+}
+
+@media (max-width:575px) {
+
+    .hero-section {
+        /* margin-left: 5rem; */
+        width: auto;
+        height: 100vh;
+        margin-top: 2rem;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        /* box-shadow: 2px 0px 10px whitesmoke; */
+
+    }
+
+    .left-container {
+
+        height: 20rem;
+        width: 18rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+.card {
+    background-color: #000000 !important;
+    height: 15rem !important;
+    width: 15.8rem !important;
+
+
+}
+
+.card-img-top {
+    background-size: cover;
+    height: 15rem;
+
+}
+
+.left-container h3 {
+    font-size: 2rem !important;
+
+}
+
+/* education section */
+.edu-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: #000000;
+    height: 30rem;
+    width: auto;
+    border-radius: 10px;
+    border: 0.5px solid rgb(96, 96, 96);
+   
+
+}
+.edu-logo{
+    margin-top: 1rem;
+    font-weight: bolder;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+
+}
+
+.e-steps{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 7rem;
+    width: 50rem;
+}
+
